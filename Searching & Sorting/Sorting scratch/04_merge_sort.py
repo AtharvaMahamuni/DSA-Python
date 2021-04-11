@@ -42,7 +42,7 @@ def divide(arr, low, high):
 
     if(low < high):
 
-        mid = low + ((high - low)//2)  # Never miss floor
+        mid = low + ((high - low)//2)  # Never miss floor division
 
         divide(arr, low, mid)
         divide(arr, mid+1, high)
