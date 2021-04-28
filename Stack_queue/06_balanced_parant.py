@@ -3,22 +3,16 @@ class Solution:
     def ispar(self, expr):
 
         stack = []
-
         for char in expr:
-
             if char in ['(', '[', '{']:
                 stack.append(char)
-
             else:
-
                 if char == ')':
                     if stack.pop() != '(':
                         return False
-
                 elif char == ']':
                     if stack.pop() != '[':
                         return False
-
                 elif char == '}':
                     if stack.pop() != '{':
                         return False
