@@ -11,7 +11,6 @@ def areRotation(str1, str2):
     return False
 
 
-
 print(areRotation("ABACD", "CDABA"))
 print(areRotation("AACD", "ACDA"))
 print(areRotation("AACA", "ACDA"))
