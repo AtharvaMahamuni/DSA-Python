@@ -19,14 +19,15 @@ def longest_substring(s):
 
     '''
 
-    substring = ''
+    # substring = ''
 
-    for i in s[start:start+global_max]:
-        substring = substring + i
+    # for i in s[start:start+global_max]:
+    #     substring = substring + i
 
-    return substring
+    # return substring
 
-    # return global_max
+    # This will return the length of substring
+    return global_max 
 
 
 print(longest_substring("ABCDABCEF"))
