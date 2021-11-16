@@ -16,3 +16,5 @@ def max_profit(arr):
 
 print(max_profit([12, 3, 4, 5, 7, 9, 10, 12, 8]))
 print(max_profit([ 8, 9, 5, 6, 12, 11]))
+
+
